@@ -1,0 +1,391 @@
+
+/* Pagina a corregir Index
+La base el proyecto esta ideada, falta dar mas estilo.
+*/
+/* Main styles */
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:800);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+body{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5rem;
+  background-color: #b3618f38;
+}
+
+.header-contenedor {
+  position: relative;
+ 
+}
+
+.header__img {
+  position: absolute;
+  top: 0;
+  opacity: 0.7;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  background-size: cover;
+  background-position: 70% 70%;
+
+
+}
+
+.header__header-contenedor {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+
+
+
+}
+
+.header-contenedor__nav {
+  /*position: fixed;*/
+  width: 100%;
+  height: 20%;
+  overflow: hidden;
+  background-color: rgba(212, 45, 198, 0.13);
+  top: 0;
+}
+
+.header-contenedor__nav__img{
+  max-width: 150px;
+  max-height: 200px;
+  margin: 10px 0 0 10px;
+  border-radius: 80px;
+}
+
+.header-contenedor__nav__ul {
+  display: inline;
+  /* margin-left: 800px; */
+  float: right;
+  margin-top: 30px;
+  margin-right: 30px;
+
+}
+
+.header-contenedor__nav__ul__li {
+  display: inline;
+  margin: 10px 20px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.header-contenedor__nav__ul__li__a {
+  color: rgb(92, 1, 77);
+  box-shadow: inset 0 0 0 0 #c55b8e80;
+  padding: 0 .25rem;
+  margin: 0 -.25rem;
+  transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+  padding: 4px;
+  border-bottom-left-radius: 20px;
+}
+
+ .header-contenedor__nav__ul__li__a:hover{
+  box-shadow: inset 300px 0 0 0 #b3618f;
+  color:black;
+
+ }
+
+ .header-title{
+  position: absolute;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  color: #33041f;
+  top: 40%;
+  left: 25%;
+  right: 25%;
+  font-size: 3rem;
+ }
+
+
+
+
+ .main-contenedor__section{
+  display: flex;
+  justify-content: center;
+
+ }
+
+ .main-contenedor__section__title{
+  text-align: center;
+  font-family:'Island Moments', cursive;
+  margin-top: 10%;
+  top: 60%;
+  left: 0%;
+  right: 30%;
+  font-size: 3rem;
+  }
+
+  .main-contenedor__section__title__destacados{
+    display: flex;
+    flex-direction: column;
+
+   
+  }
+
+
+
+
+.main-contenedor__section__title__destacados__descripcion__img{
+display: flex;
+margin-left: 30%;
+padding: 20px;
+
+ 
+  
+}
+
+
+
+.main-contenedor__section__title__destacados__descripcion__torta{
+display: flex;
+margin-left: 40%;
+
+}
+
+.title-button{
+  position: relative;
+  font-family: 'Josefin Sans', sans-serif;
+  margin-left: 45%;
+  margin-top: 50px;
+  margin-bottom: 120px;
+  padding: 5px;
+  font-size: 30px;
+  box-shadow: 0 10px 10px #c55b8ea1;
+  text-shadow: 3px 2px 1px #e051a9;
+  border-radius: 7px;
+  background-image: -webkit-linear-gradient(top, #c625cc8e, #3d0d2e8f);
+}
+
+.title-button:hover {
+  color: rgb(8, 3, 7);
+  outline: 0;
+  background-color: #aa79a646;
+}
+  
+.title-sub{
+  position: relative;
+  text-align: center;
+  padding: 60px;
+}
+
+.title-sub__video{
+  display: inline;
+
+  margin-left: 30%;
+  
+}
+
+footer{
+  position: relative;
+  background-color: #b3618f8c;
+  margin-top: 50px;
+
+
+
+}
+footer li{
+  list-style: none;
+  display: inline-block;
+}
+
+.footer-logo{
+  position: absolute;
+  top: 100%;
+  left: 35%;
+  text-align: center;
+}
+
+.footer-logo img{
+  border-radius: 100%;
+  width: 90px;
+}
+
+.footer-iconos{
+  position: relative;
+  left: 43%;
+}
+
+
+
+.footer-input{
+  border-radius: 10%;
+  background-color: #e051a938;
+
+ 
+}
+.footer-btn{
+  border-radius: 10%;
+  background-color: #e051a938;
+  
+}
+
+/*nosotros*/
+
+
+ .contenedor{
+  
+  display: flex;
+  width: 100%;
+}
+
+.contenedor__subtitle{
+  display: flex;
+  padding: 30px;
+  margin-top: 10%;
+  margin-left: 40%;
+
+  
+
+} 
+
+
+.contenedor__img__img5{
+  margin-left: 15%;
+border-radius: 30px;
+ }
+ .contenedor__img__notrostros{
+  display: flex;
+  justify-content: center;
+  box-shadow: #33041f6c;
+  }
+
+  .text-nosotros{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(15, 13, 13, 0.733);
+    color: white;
+    text-align: justify;
+    
+  }
+
+
+  .name{
+    margin-top: 100%;
+  }
+
+  .text-name{
+    margin-top: 10%;
+    padding: 5%;
+    color: white;
+  background-color: rgba(0, 0, 0, 0.288);
+   border-radius: 20px;
+   
+  }
+
+  /*cotacto*/
+
+
+  .body{
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    display: block;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: top center !important;
+    background-image: url(assets/images/bg.jpg) !important;
+    margin: 0 auto;
+    background-color: transparent;
+  }
+   
+ 
+
+  .title-contacto1{
+    margin-top: 10%;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+    background-image: url(../assets/spring-background-3175322_960_720.jpg);
+    opacity: 0.8;
+    border: 3px solid #640c64;
+    box-shadow: 0px 2px 2px 6px rgba(0,0,0,0.5)
+    
+   
+  
+
+    
+    
+  
+  }
+  .title-contacto2{
+    margin: 30px;
+    padding: 0%;
+   
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:black;
+    opacity: 0.8;
+    background-image: url(../assets/spring-background-3175322_960_720.jpg);
+    border: 3px solid #640c64;
+    box-shadow: 0px 2px 2px 6px rgba(0,0,0,0.5);
+   
+    
+
+   
+  }
+  
+  .header-section{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 60px;
+    color: white;
+    border-radius: 10px;
+    margin-top: 10%;
+    font-size: 60px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    padding: 140px 0;
+    opacity: 0.8;
+  }
+ 
+  /*locales*/
+  .img-locales{
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    margin-bottom: 10%;
+    width: 40%;
+    height: 10%;
+  
+    background-color: #33041fbb;
+  }
+
+  .img-mapa{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 50%;
+  }
+ 
+
+  .title-local{
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+  }
+ 
+ 
+  .card-menu:hover{
+background-color: #640c642f;
+
+      opacity: 0.94;
+      transform: scale(0.92);
+  }
+
+/*  
+  @media screen and (min-width: 412px) and (max-width: 768px) {.header-contenedor }
+  @media screen and (min-width: 321px) and (max-width: 768px) {.footer } */
